@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "rm -rf .next/dev/lock && next dev",
+    "ws-server-socketio": "tsx ws-server-socketio.ts --watch",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
@@ -18,6 +19,8 @@
     "next": "16.0.1",
     "react": "19.2.0",
     "react-dom": "19.2.0",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
     "tailwind-merge": "^3.3.1",
     "tsx": "^4.20.6",
     "ws": "^8.18.3"
