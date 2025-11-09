@@ -3,8 +3,8 @@ import next from "next";
 import { Server } from "socket.io";
 
 const dev = process.env.NODE_ENV !== "production";
-const hostname = "http://3.88.37.132:4001";
-const port = 4000;
+const hostname = "http://3.88.37.132";
+const port = 4001;
 
 const app = next({ dev, hostname, port });
 const handler = app.getRequestHandler();
