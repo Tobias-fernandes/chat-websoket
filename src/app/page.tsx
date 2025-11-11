@@ -18,6 +18,8 @@ const Home = () => {
     router.push("/socket");
   };
 
+  console.log("Hello world");
+
   return (
     <Card className="relative mx-auto max-w-3xl h-screen flex flex-col justify-center items-center">
       <CardTitle className="text-2xl font-bold p-4">
