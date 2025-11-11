@@ -1,7 +1,7 @@
 ## Real-Time web chat application
 
 Libraries used in this project:
-- ShadCN: Components lib to develop a better UI/UX website easier.
+- ShadCn: A set of designed components to customize, extend, and build on.
 - Socket.io: A web-scoket library that helps to stablish a real time communication on different browsers.
 
 First, pull the project into your workspace. Then, type the following commands below:
@@ -10,12 +10,15 @@ First, pull the project into your workspace. Then, type the following commands b
 npm i
 # or
 pnpm i
+
 # then
+
+# each command must be sent in diffente terminals
 npm run ws-socketio
 npm run dev
-<in different terminals>
 
 # or
+# each command must be sent in diffente terminals
 pnpm ws-socketio
 pnpm dev
 ```
