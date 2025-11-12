@@ -13,7 +13,7 @@ pnpm i
 
 # then
 
-// this branch is set to run the project on localhost
+# this branch is set to run the project on localhost
 git checkout develop
 
 # then
